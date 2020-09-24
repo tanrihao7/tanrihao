@@ -34,6 +34,8 @@
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"></property>
     </bean>
+    <bean id="StaffService" class="com.service.StaffService"/>
+
 
     <!-- 使用注解来控制事务 -->
     <tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>

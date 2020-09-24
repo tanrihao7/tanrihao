@@ -1,5 +1,8 @@
 package com.Exception;
 
+/**
+ * @date 2020/9/25 0:33
+ */
 public class CustomExcption extends Exception {
     public String message;
     public Throwable throwable;
